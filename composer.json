@@ -1,0 +1,25 @@
+{
+    "name": "mohabdelaziz95/chuck-norris-jokes",
+    "description": "Create random norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed AbdElaziz",
+            "email": "mohabdelaziz95@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MohAbdElaziz\\ChuckNorrisJokes\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MohAbdElaziz\\ChuckNorrisJokes\\Tests\\" : "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
